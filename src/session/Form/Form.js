@@ -11,8 +11,8 @@ const Form = () => {
             generous. If you have any questions, our support tem would be happy to help you.
           </p>
           <div className='form-email'>
-            <input type="text" placeholder='email@exemple.com'/>
-            <Button width="170px" text="Get Started For Free" />
+              <input type="text" placeholder='email@exemple.com'/>
+              <Button width="170px" text="Get Started For Free" />
           </div>
       </div>
     </div>
