@@ -1,0 +1,86 @@
+.intro {
+  max-width: 100%;
+  height: auto;
+  background: url(../../assets/bg-curvy-desktop.svg) no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  padding-bottom: 30px;
+}
+
+.intro-img img{
+  max-width: 31.25rem;
+  margin: 0 auto;
+}
+
+.intro-txt {
+  max-width: 37.5rem;
+  margin: 0 auto;
+  padding-bottom: 1.875rem;
+}
+
+.intro-txt h2, p {
+  text-align: center;
+}
+
+.intro-txt h2 {
+  font-size: 2rem;
+  font-family: var(--type-second);
+  line-height: 2.5rem;
+  color: var(--white-color);
+  padding: 1.5625rem 0;
+}
+
+.intro-txt p {
+  font-family: var(--type-second);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: var(--white-color);
+}
+
+@media (max-width: 768px) {
+  .intro-txt h2 {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .intro-img img {
+    max-width: 21.875rem;
+    padding-top: 2.5rem;
+  }
+  .intro-txt {
+    width: 25rem;
+  }
+  .intro-txt h2 {
+    font-size: 1.25rem;
+    padding: 40px 20px 0px 20px;
+    line-height: 1.75rem;
+  }
+  .intro-txt p {
+    font-size: 0.75rem;
+    padding: 20px 40px;
+    line-height: 1.375rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro-img img {
+    max-width: 18.75rem;
+  }
+  .intro-txt {
+    width: 21.875rem;
+  }
+  .intro-txt h2 {
+    font-size: 1.125rem;
+    padding-top: 3.125rem;
+    line-height: 1.5rem;
+    
+  }
+  .intro-txt p {
+    line-height: 1.125rem;
+    padding: 30px 40px 0px 40px;
+  }
+}
+
