@@ -13,7 +13,8 @@
   background-color: var(--blue-testimonials);
 }
 
-.form-container h2, p {
+.form-container h2,
+p {
   text-align: center;
 }
 
@@ -50,28 +51,38 @@
   .form-container {
     width: 450px;
   }
+
   .form-container h2 {
     font-size: 1.625rem;
   }
+
   .form-container p {
     padding: 0px 60px 20px 60px;
   }
+
   .form-email input {
     width: 350px;
     margin-right: 0px;
   }
+
   .form-email {
     flex-direction: column;
   }
+
   .form-email button {
     margin-top: 20px;
   }
 }
 
 @media (max-width: 550px) {
+  .form {
+    padding-top: 10px;
+  }
+
   .form-container {
     width: 21.875rem;
   }
+
   .form-email input {
     width: 18.75rem;
     margin-right: 0px;
