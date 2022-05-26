@@ -12,7 +12,12 @@ const Form = () => {
           </p>
           <div className='form-email'>
               <input type="text" placeholder='email@exemple.com'/>
-              <Button width="170px" text="Get Started For Free" />
+              <div className='btn-desk'>
+                <Button width="170px" text="Get Started For Free" />
+              </div>
+              <div className='btn-mobile'>
+                <Button width="300px" text="Get Started For Free" />
+              </div>
           </div>
       </div>
     </div>
